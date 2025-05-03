@@ -9,7 +9,7 @@ on:
  
 jobs:
   test:
-   runs-on: centos-latest
+   runs-on: ubuntu-latest
    steps:
        - name: Workflow descritpion
          run: echo Hello , Krunal !
